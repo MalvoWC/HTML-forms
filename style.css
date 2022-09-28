@@ -1,0 +1,19 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+@media all and (min-width: 600px) {
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    flex-direction: column;
+  }
+  textarea {
+    height: 200px;
+  }
+}
